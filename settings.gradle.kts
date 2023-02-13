@@ -1,1 +1,1 @@
-rootProject.name = "yet-another-intellij-pdf-viewer"
+rootProject.name = "another-intellij-pdf-viewer"
