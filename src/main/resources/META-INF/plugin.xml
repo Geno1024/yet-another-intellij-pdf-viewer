@@ -25,5 +25,10 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
+        <fileType name="PDF"
+                  extensions="pdf"
+                  language="PDF"
+                  fieldName="INSTANCE"
+                  implementationClass="com.geno1024.anotherpdfviewer.lang.PdfFileType"/>
     </extensions>
 </idea-plugin>
